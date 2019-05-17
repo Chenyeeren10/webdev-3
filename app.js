@@ -11,7 +11,8 @@ button.addEventListener('click', function()
   } else {
     alert("youre not admin")
  for (var i = 0; i < document.body.children.length; i ++){
-      document.body.children[i]
+      var element = document.body.children[i]
+      element.classlist.add("red")
   }
 
 }
