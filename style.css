@@ -23,8 +23,20 @@ h2 {
 
 .content {
   width: 50vw;
-  border: 1px solid #000
-  margin-left: 10px
+  border: 1px solid #000;
+  margin-left: 10px;
   padding: 10vw;
+  
+}
+
+.container {
+  display: flex;
+  height: 500px;
+  
+}
+
+.child {
+  height: 100px;
+  width: 100px;
   
 }
