@@ -1,13 +1,30 @@
 h1 {
   color: blue;
   background-color: #11ffff;
+  
 }
 
 h2 {
   color: red
-  background-color: #ff88ff
+  background-color: #ff88ff;
+  
 }
 
 .title {
-  color: green
+  color: green;
+  
+}
+
+
+#profile-picture {
+  width: 500px;
+  
+}
+
+.content {
+  width: 50vw;
+  border: 1px solid #000
+  margin-left: 10px
+  padding: 10vw;
+  
 }
