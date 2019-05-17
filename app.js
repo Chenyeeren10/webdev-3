@@ -13,7 +13,5 @@ button.addEventListener('click', function()
  for (var i = 0; i < document.body.children.length; i ++){
       var element = document.body.children[i]
       element.classlist.add("red")
-  }
-
 }
   console.log("username")
